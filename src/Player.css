@@ -1,0 +1,16 @@
+.Player {
+  width: 250px;
+  height: 400px;
+  padding: 20px;
+  transition: transform 0.3s ease-out;
+}
+
+.Player:hover {
+  cursor: pointer;
+  transform: translateY(-10px)
+}
+
+.Player p {
+  text-align: center;
+  font-weight: bold;
+}

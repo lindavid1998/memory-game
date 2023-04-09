@@ -5,9 +5,38 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* padding: 2%; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body {
+  background-color: #1A1C29;
+  background-image: linear-gradient(to bottom, #1A1C29, #0A0E17);
+  color: #FFFFFF;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #F8F8FF;
+}
+
+a {
+  color: #00FFFF;
+}
+
+a:hover {
+  color: #7FFF00;
+}
+
+.primary-accent {
+  color: #FF6347;
+}
+
+.secondary-accent {
+  color: #7FFF00;
 }
