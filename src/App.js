@@ -71,12 +71,18 @@ export default function App() {
 		<div className='App'>
 			<header>
 				<div class='header-content'>
-					<h1>David Lin 2023</h1>
-					<a href='https://github.com/' target='_blank'>
-						<i class='fa-brands fa-github'></i>
-					</a>
+					<h1>Football Memory Game</h1>
 				</div>
 			</header>
+
+			<div className='instructions'>
+				<p>
+					<b>Instructions</b>: Click on each player exactly once. Your score
+					indicates how many unique players you have clicked consecutively. If
+					you click on a player that you have already clicked on, your score
+					will be reset to 0.
+				</p>
+			</div>
 
 			<div className='scores'>
 				<div className='high-score'>High score: {highScore}</div>
@@ -95,6 +101,15 @@ export default function App() {
 					);
 				})}
 			</div>
+
+			<footer>
+				<div class='header-content'>
+					<h1>David Lin 2023</h1>
+					<a href='https://github.com/lindavid1998/memory-game'>
+						<i class='fa-brands fa-github'></i>
+					</a>
+				</div>
+			</footer>
 		</div>
 	);
 }
