@@ -4,6 +4,12 @@ import messiImg from './images/messi.jpeg';
 import ronaldoImg from './images/ronaldo.jpeg';
 import neymarImg from './images/neymar.jpg';
 import mitomaImg from './images/mitoma.jpeg';
+import haalandImg from './images/haaland.webp';
+import iniestaImg from './images/iniesta.jpeg';
+import martinezImg from './images/martinez.webp';
+import viniImg from './images/vini.jpeg'
+import mbappeImg from './images/mbappe.jpeg'
+import benzemaImg from './images/benzema.webp'
 import Player from './Player';
 
 export default function App() {
@@ -15,9 +21,14 @@ export default function App() {
 		{ name: 'Cristiano Ronaldo', src: ronaldoImg },
 		{ name: 'Kaoru Mitoma', src: mitomaImg },
 		{ name: 'Neymar', src: neymarImg },
+		{ name: 'Erling Haaland', src: haalandImg },
+		{ name: 'Andres Iniesta', src: iniestaImg },
+		{ name: 'Emi Martinez', src: martinezImg },
+		{ name: 'Vinicius Junior', src: viniImg },
+		{ name: 'Karim Benzema', src: benzemaImg },
+		{ name: 'Kylian Mbappe', src: mbappeImg },
 	]);
 
-	// - whenever a player is clicked
 	const handleClick = (e) => {
 		const playerDiv = e.currentTarget;
 		const name = playerDiv.querySelector('p').textContent;
@@ -29,8 +40,8 @@ export default function App() {
 		} else {
 			setVisitedPlayers(visitedPlayers.concat([name]));
 			setCurrentScore(currentScore + 1);
-    }
-  };
+		}
+	};
 
 	useEffect(() => {
 		const shuffleArray = (array) => {

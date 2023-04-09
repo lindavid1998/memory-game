@@ -1,5 +1,5 @@
 .App {
-  padding: 2%;
+  padding: 1% 2%;
 }
 
 img {
@@ -11,11 +11,12 @@ img {
 .scores {
   font-size: 1.3rem;
   display: flex;
-  gap: 20px;
+  gap: 10px;
   flex-direction: column;
   padding-left: 20px;
 }
 
 .players {
   display: flex;
+  flex-wrap: wrap;
 }
