@@ -1,5 +1,7 @@
 .App {
   padding: 1% 2%;
+  width: 95%;
+  height: 95%;
 }
 
 img {
@@ -8,15 +10,38 @@ img {
   object-fit: cover;
 }
 
+header {
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header-content h1 {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.header-content a i {
+  font-size: 28px;
+  color: #fff;
+}
+
 .scores {
   font-size: 1.3rem;
   display: flex;
   gap: 10px;
   flex-direction: column;
-  padding-left: 20px;
 }
 
 .players {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }

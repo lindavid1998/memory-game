@@ -69,6 +69,15 @@ export default function App() {
 
 	return (
 		<div className='App'>
+			<header>
+				<div class='header-content'>
+					<h1>David Lin 2023</h1>
+					<a href='https://github.com/' target='_blank'>
+						<i class='fa-brands fa-github'></i>
+					</a>
+				</div>
+			</header>
+
 			<div className='scores'>
 				<div className='high-score'>High score: {highScore}</div>
 				<div className='current-score'>Current score: {currentScore}</div>

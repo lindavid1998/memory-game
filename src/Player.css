@@ -1,13 +1,14 @@
 .Player {
   width: 250px;
-  height: 400px;
+  height: 350px;
   padding: 20px;
   transition: transform 0.3s ease-out;
 }
 
 .Player:hover {
   cursor: pointer;
-  transform: translateY(-10px)
+  transform: translateY(-10px);
+  color: #7FFF00;
 }
 
 .Player p {
