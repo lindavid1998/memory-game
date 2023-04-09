@@ -13,8 +13,8 @@ function App() {
 	const players = [
 		{ name: 'Lionel Messi', src: messiImg },
 		{ name: 'Cristiano Ronaldo', src: ronaldoImg },
-		{ name: 'Karou Mitoma', src: neymarImg },
-		{ name: 'Neymar', src: mitomaImg },
+		{ name: 'Kaoru Mitoma', src: mitomaImg },
+		{ name: 'Neymar', src: neymarImg },
 	];
 
 	return (
