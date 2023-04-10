@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/memory-card/static/css/main.01e586cc.css",
-    "main.js": "/memory-card/static/js/main.8512d9de.js",
-    "static/media/neymar.jpg": "/memory-card/static/media/neymar.ccbd20c33d9b2f9bfab1.jpg",
-    "static/media/iniesta.jpeg": "/memory-card/static/media/iniesta.29542223b798afc01c4b.jpeg",
-    "static/media/mitoma.jpeg": "/memory-card/static/media/mitoma.58cc4e3f301de34dbac0.jpeg",
-    "static/media/messi.jpeg": "/memory-card/static/media/messi.0a2b56d3f856cd2d0732.jpeg",
-    "static/media/mbappe.jpeg": "/memory-card/static/media/mbappe.d56a834ddc8a7da34bcf.jpeg",
-    "static/media/benzema.webp": "/memory-card/static/media/benzema.1a4ca3ddc42332bd112c.webp",
-    "static/media/haaland.webp": "/memory-card/static/media/haaland.5c531dd40a8efa5a9695.webp",
-    "static/media/vini.jpeg": "/memory-card/static/media/vini.8f7ba78a7a144a3d2e46.jpeg",
-    "static/media/ronaldo.jpeg": "/memory-card/static/media/ronaldo.f9b6cb24fdf2c30f3a65.jpeg",
-    "static/media/martinez.webp": "/memory-card/static/media/martinez.928eb130401234a8b444.webp",
-    "index.html": "/memory-card/index.html",
-    "main.01e586cc.css.map": "/memory-card/static/css/main.01e586cc.css.map",
-    "main.8512d9de.js.map": "/memory-card/static/js/main.8512d9de.js.map"
+    "main.css": "/memory-game/static/css/main.01e586cc.css",
+    "main.js": "/memory-game/static/js/main.c6d0212f.js",
+    "static/media/neymar.jpg": "/memory-game/static/media/neymar.ccbd20c33d9b2f9bfab1.jpg",
+    "static/media/iniesta.jpeg": "/memory-game/static/media/iniesta.29542223b798afc01c4b.jpeg",
+    "static/media/mitoma.jpeg": "/memory-game/static/media/mitoma.58cc4e3f301de34dbac0.jpeg",
+    "static/media/messi.jpeg": "/memory-game/static/media/messi.0a2b56d3f856cd2d0732.jpeg",
+    "static/media/mbappe.jpeg": "/memory-game/static/media/mbappe.d56a834ddc8a7da34bcf.jpeg",
+    "static/media/benzema.webp": "/memory-game/static/media/benzema.1a4ca3ddc42332bd112c.webp",
+    "static/media/haaland.webp": "/memory-game/static/media/haaland.5c531dd40a8efa5a9695.webp",
+    "static/media/vini.jpeg": "/memory-game/static/media/vini.8f7ba78a7a144a3d2e46.jpeg",
+    "static/media/ronaldo.jpeg": "/memory-game/static/media/ronaldo.f9b6cb24fdf2c30f3a65.jpeg",
+    "static/media/martinez.webp": "/memory-game/static/media/martinez.928eb130401234a8b444.webp",
+    "index.html": "/memory-game/index.html",
+    "main.01e586cc.css.map": "/memory-game/static/css/main.01e586cc.css.map",
+    "main.c6d0212f.js.map": "/memory-game/static/js/main.c6d0212f.js.map"
   },
   "entrypoints": [
     "static/css/main.01e586cc.css",
-    "static/js/main.8512d9de.js"
+    "static/js/main.c6d0212f.js"
   ]
 }
